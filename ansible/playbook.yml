@@ -1,5 +1,5 @@
 - name: test playbook
-  hosts: all
+  hosts: localhost
 
   tasks:
     - debug:
