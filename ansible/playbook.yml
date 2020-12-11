@@ -1,0 +1,6 @@
+- name: test playbook
+  hosts: localhost
+
+  tasks:
+    - debug:
+        msg: "Hello from ansible - again"
